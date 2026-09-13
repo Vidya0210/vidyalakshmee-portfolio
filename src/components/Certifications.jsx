@@ -56,11 +56,11 @@ const certifications = [
   {
     number: "06",
     title: "Getting Started with Artificial Intelligence",
-    issuer: "IBM",
-    category: "ARTIFICIAL INTELLIGENCE",
+    issuer: "IntrnForte",
+    category: "ARTIFICIAL INTELLIGENCE Course Completion",
     date: "2025",
     icon: "🤖",
-    file: "/certificates/ibm-ai.pdf"
+    file: "/certificates/ai.pdf"
   },
 
   {
