@@ -1,0 +1,44 @@
+.scroll-top {
+  position: fixed;
+
+  right: 25px;
+  bottom: 25px;
+
+  width: 45px;
+  height: 45px;
+
+  border-radius: 50%;
+
+  border: 1px solid #00e5ff;
+
+  background: #0a1022;
+
+  color: #00e5ff;
+
+  font-size: 20px;
+
+  cursor: pointer;
+
+  z-index: 900;
+
+  opacity: 0;
+  visibility: hidden;
+
+  transform: translateY(20px);
+
+  transition: 0.3s;
+}
+
+.scroll-top.show {
+  opacity: 1;
+  visibility: visible;
+
+  transform: translateY(0);
+}
+
+.scroll-top:hover {
+  background: #00e5ff;
+  color: #050814;
+
+  transform: translateY(-4px);
+}
